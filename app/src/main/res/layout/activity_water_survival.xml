@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/containerWaterSurvival"
+    android:background="@color/blue1"
+    android:orientation="horizontal"
+    tools:context=".WaterSurvivalActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WATER SURVIVAL"
+        android:background="@color/blue2"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="55dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Introduction of Water Survival"
+                android:textSize="22sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/pws"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Personal Water Safety"
+                android:textSize="20sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_below="@id/header"/>
+
+            <ImageView
+                android:id="@+id/pwsImg"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_below="@id/pws"
+                android:src="@drawable/canv_pws" />
+
+            <TextView
+                android:id="@+id/pwsTv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pwsImg"
+                android:layout_marginTop="7dp"
+                android:fontFamily="@font/poppins_medium"
+                android:justificationMode="inter_word"
+                android:text="\t\t\tPeople are terrestrial being they do not belong in the water. Their physical makeup: posture, body temperature, breathing apparatus, shape and arrangement of arms and legs, specific gravity, functions, and everything is different from aquatic mammal. But man's curiosity and dominant will, and marvelous adaptive brain and physical structure they learn to adapt themselves in the water. They have found comfort, relaxation, and enjoyment in the water. Man is one of the few animals-if not the only mammal that must learn how to swim. "
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/pwsTv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\t\t\tDrowning is suffocation in the water. When the water closes over the mouth and nose and person is in such a position or condition that they cannot surface to breathe, drowning occurs, Learning how IO swim, knowing when and where to swim, and being prepared for the hazards or dangers of the aquatic environment will equip a person with the major defenses against drowning and will enhance enjoyment of the aquatic environment. "
+                android:textSize="18sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"
+                android:layout_below="@id/pwsTv1"/>
+
+            <ImageView
+                android:id="@+id/pwsImg2"
+                android:layout_width="wrap_content"
+                android:layout_height="650dp"
+                android:layout_below="@id/pwsTv2"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:src="@drawable/canva_ps" />
+
+            <TextView
+                android:id="@+id/prHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Pool Regulations"
+                android:textSize="20sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_below="@id/pwsImg2"/>
+
+            <TextView
+                android:id="@+id/prTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="1. Medical Certificates (as needed) \n2. Attire: \n\ta) Male - Swimming trunk \n\tb) Female - Bathing suit with swimming cap \n3. Take a shower before going to the swimming pool \n4. Step on the foot bath for disinfectants \n5. Do not smoke or eat candies or other foods that attract insects within pool area \n6. Do not urinate in the water \n7. Do not spit in the water, use the gutter."
+                android:textSize="18sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:layout_below="@id/prHeader"/>
+
+            <TextView
+                android:id="@+id/sbtsHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Safe and Best Time for Swimming"
+                android:textSize="20sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_below="@id/prTv"/>
+
+            <TextView
+                android:id="@+id/sbtsTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="1. Favorable weather \n2. Last two hours in the morning \n3. Last two hours in the afternoon \n4. After digestion has taken place for at least 1 to 2 hours \n5. Clear water, bottom transparent \n6. Swim only at the area with lifeguard \n7. Never swim alone "
+                android:textSize="18sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:layout_below="@id/sbtsHeader"/>
+
+            <TextView
+                android:id="@+id/disHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Dangers (Accident in Swimming)"
+                android:textSize="20sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_below="@id/sbtsTv"/>
+
+            <TextView
+                android:id="@+id/disTv1a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/cramps"
+                android:textSize="18sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"
+                android:layout_below="@+id/disHeader"/>
+
+
+            <TextView
+                android:id="@+id/disTv2a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/exhaustion"
+                android:textSize="18sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"
+                android:layout_below="@+id/disTv1a"/>
+
+
+            <TextView
+                android:id="@+id/disTv3a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/panic"
+                android:textSize="18sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"
+                android:layout_below="@+id/disTv2a"/>
+
+
+            <TextView
+                android:id="@+id/disTv4a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="4. After a Heavy Meal"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:layout_below="@+id/disTv3a"/>
+
+            <TextView
+                android:id="@+id/drowningHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="What is Drowning?"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:layout_below="@+id/disTv4a"/>
+
+            <ImageView
+                android:id="@+id/drowningImg"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/drowning"
+                android:layout_below="@id/drowningHeader"/>
+
+            <TextView
+                android:id="@+id/drowningTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="\t\t\tDrowning is a type of asphyxia (inability to breathe) related to either respiration of fluids or obstruction of the airway caused by spam of the larynx while the victim is in the water. "
+                android:textSize="18sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"
+                android:layout_below="@+id/drowningImg"/>
+
+            <TextView
+                android:id="@+id/wssHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:text="Water Safety and Survival"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:layout_below="@+id/drowningTv"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/wssTv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Water Search and Rescue \n1. Assess the situations. "
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:layout_below="@+id/wssHeader"/>
+
+            <TextView
+                android:id="@+id/wssTv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a). Remain calm and plan the rescue. \nb). Determine the position of the victim and hoe the safety of that area for the rescuers. Do not attempt to rescue if the area is dangerous even for skilled swimmers. \nc). Call for the assistance if available. If possible, the rescuer should not attempt the rescue alone. \nd). Call for medical experts in case the situation calls for their aid. \ne).\tMaintain crowd control. Non - swimmers should not attempt to rescue the victim "
+                android:textSize="18sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"
+                android:layout_below="@id/wssTv1"/>
+
+            <TextView
+                android:id="@+id/wssTv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="2. Follow the prescribed pattern of rescue 'Reach, Throw, Row, Go' ."
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:layout_below="@+id/wssTv2"/>
+
+            <TextView
+                android:id="@+id/reachHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="What is Reach?"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:layout_below="@+id/wssTv3"/>
+
+            <TextView
+                android:id="@+id/reachTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/reachHeader"
+                android:layout_marginTop="6dp"
+                android:fontFamily="@font/poppins_medium"
+                android:justificationMode="inter_word"
+                android:text="\t\t\t It extends a long stable instrument that can be used to reach out to the victim and pull him or her to safety. "
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+
+
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/comeHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"/>
+
+
+</RelativeLayout>

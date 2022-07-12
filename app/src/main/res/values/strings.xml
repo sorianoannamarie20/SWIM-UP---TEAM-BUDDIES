@@ -1,0 +1,270 @@
+<resources>
+    <string name="app_name">SWIM UP</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_account">Account</string>
+    <string name="menu_category">Quiz</string>
+    <string name="menu_leaderboard">Leaderboard</string>
+    <string name="menu_about">About</string>
+    <string name="menu_exit">Exit</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="Early">
+        "Swimming had its origin in Egypt as a leisure sport around 2500 BCE. According to britannica.com, archeological evidence has shown that ancient Greeks and Romans later used the practice to train soldiers for war to eventually become part of elementary education.They are also believe to have built the first swimming pools, directly different from their baths. \n \n"
+
+        "Evidence of a few races taking place in Japan around the 1st Century, BCE has also been uncovered. Not surprisingly, ancients Pacific Island natives are believed to have taught their children how to swim around the same time or even before they learned how to walk. "
+
+    </string>
+
+    <string name="FirstIndoor">
+        "In 1828, swimming became more accessible when the first public indoor municipal swimming pool opened in England. The club was called St. George’s Baths and was a salt water pool."
+
+    </string>
+
+    <string name="CompetitiveRecreation">
+        "Swimming emerge as a competitive recreational activity in England."
+
+    </string>
+
+    <string name="Six">
+        "The National Swimming Society was holding regular swimming competitions in six artificial swimming pools, built around London."
+
+    </string>
+
+    <string name="Competition">
+        "Two native American participants at a swimming competition in London introduced front crawl to a western audience."
+    </string>
+
+    <string name="Amateur">
+        "First national governing body the Amateur Swimming Association, was formed, there were already over 300 regional clubs in operation across the country."
+
+
+    </string>
+
+    <string name="Bubble">
+        "The technique of bubbling helps swimmers to breathe properly. When you swim, you inhale through your mouth when your face is above water and exhale through your mouth or nose when your face is underwater. Beginners often panic during the underwater phase and hold their breath."
+    </string>
+
+    <string name="Back">
+        "The back float is commonly used by recreational swimmers for short periods of rest. With a slightly arched back, lie on the surface of the water as if you were lying on a firm mattress. Keep your arms to your side and move them back and forth in small circles to keep your upper body on the surface."
+    </string>
+
+    <string name="Dead">
+        "A prone floating position, used esp. by beginning swimmers, with face downward, legs extended backward, and arms stretched forward."
+    </string>
+
+    <string name="Jellyfish">
+        "The jellyfish float, also known as the survival float, is a critical part of water safety. This float is sometimes taught in the first stage of swimming lessons, as part of water orientation skills -- and sometimes in the later stages, as part of fundamental aquatic skills. Learning to float in numerous positions helps in understanding the lifting effects of water."
+    </string>
+
+    <string name="Tucked">
+        "A tuck float, also called a mushroom float, this position is pulling your knees to your chest and wrapping your arms around your knees."
+    </string>
+
+    <string name="Dolphin">
+        "A swimming kick used mainly in butterfly in which the legs are extended straight back and moved up and down in unison with a slight bend in the knees on the upward movement."
+    </string>
+
+    <string name="Flutter">
+        "The flutter kick is a simple and efficient kick used in the front crawl/freestyle stroke, but also in the backstroke. Both legs are kept parallel, fairly straight, and quickly flutter up and down with toes pointed."
+    </string>
+
+    <string name="Frog">
+        "A breaststroke kick executed with the knees primarily turned outward and the legs alternately separated and closed."
+    </string>
+
+    <string name="Backstroke">
+        " A swimming stroke executed on the back and usually consisting of alternating circular arm pulls and a flutter kick."
+    </string>
+
+    <string name="Breaststroke">
+        "The breaststroke is swum with the body facing down. The arms perform semicircular movements, and the legs perform a frog kick."
+    </string>
+
+    <string name="Butterfly">
+        "A swimming stroke performed face down, in which both arms are thrust out at the sides at the same time, brought forward out of the water and then down through the water in a circular motion, while using an up-and-down leg movement."
+    </string>
+
+    <string name="Crawl">
+        " The stroke swimmers use in the freestyle event is actually called the ‘front crawl’. Freestyle means you can swim with any style you like- the fastest stroke just so happens to be the ‘front crawl’."
+    </string>
+
+    <string name="HealthyHeart">
+        "Swimming is an activity that can be enjoyed by the whole family, Everyone can partake in this activity that is sure to reduce stress and leave you feeling better than before."
+    </string>
+
+    <string name="BetterSleep">
+        "Regular swimming is an excellent way to ensure a good night's sleep for both the parents and child."
+    </string>
+
+    <string name="WeightLoss">
+        "Swimming in an exercise that works the whole body by targeting multiple muscle groups."
+    </string>
+
+    <string name="JointHealth">
+        "Swimming is a great form of regular exercise that works for different muscle groups simultaneously without placing too much strain on your bones and joints."
+    </string>
+
+    <string name="Strong">
+        "Another benefit of swimming regularly is that swimming aids in raising your hearth rate without placing undue stress on the organ."
+    </string>
+
+    <string name="ClearBrain">
+        "Swimming is a fun way to break up the mandatory of home and school life for young ones."
+    </string>
+
+    <string name="Mindfulness">
+        "Rhythmic breathing, total immersion in the moment and connection of mind and body -  the perfect mindfulness ingredients and they all come included in every swim session."
+    </string>
+
+    <string name="Anxiety">
+        "When you're in the water you body is relaxing, your mind is occupied with helpful thoughts and the rest of the world stops for a while. What a great antidote to thoughts and feeling that create anxiety."
+    </string>
+
+    <string name="Mood">
+        "It's hard to feel great after swim: The rush of endorphins, the feeling relaxed and tired muscles and the senses of the achievement from a job well done. This kind of regular mood boost is great for the soul as well as the heart."
+    </string>
+
+    <string name="Self">
+        "Staying confident in who we are requires regular focus. Every session in the pool provides valuable evidence for building your self esteem through getting fitter, stronger and ensuring your mins is connected to a body that you're proud of."
+    </string>
+
+    <string name="Time">
+        "The world is a busy place. When you choose to swim, you choose to focus on moving at the pace you want to, rather than the pace the word dictates. Enjoy every moment of that time out - the time that you choose for you."
+    </string>
+
+    <string name="Survival">
+        "* Lower risk of drowning. \n"
+        "* Greater stamina and strength."
+    </string>
+
+    <string name="Motor">
+        "* Greater precision in cutting \n"
+        "* Paper drawing and shapes."
+    </string>
+
+    <string name="Social">
+        "* Increase confidence and self-esteem. \n"
+        "* Comfortable social situations."
+    </string>
+
+    <string name="OSurvival">
+        "There are ever present danger near any open water, the sea, rivers, lakes, canals and disused pits. Every year there are deaths cause through drowning, many occurring within a few meters safety, It is important, therefore, that everyone should be able to swim, in order to save themselves in an emergency. This same open water provides opportunities for a wide range of activities such as sailing and surfing, for which swimming is prerequisite. It is not jut about being comfortable in the water, its about learning wow to survive"
+    </string>
+
+    <string name="ORecreation">
+        "In these days of increased leisure time, the need for involvement in some kind of recreational pursuit, preferably of a physical nature, is generally recognized. Swimming provides the means and it has many advantages: \n \n "
+
+        " * Ample opportunities are available in swimming pools and leisure centers. \n\n "
+        " * Little equipment is required, simply a costume and a towel. \n\n"
+        " * It is comparatively inexpensive.\n"
+        " * It can be enjoyed in company or alone (but the latter only under supervision) \n\n"
+        " * The acquisition of swimming skills can lead to training as a lifesaver and lifeguard. \n\n"
+
+    </string>
+
+    <string name="Therapy">
+        "Swimming can be valuable in medical treatment and in general therapy for the following reasons: \n \n"
+
+        " * The disabled and physical handicapped may take part because weight bearing is not required. Movement and travel can take place without the use of strength, and the performer is able to experience and enjoy a freedom of movement not possible out of water. \n \n"
+        " * It is particularly suited to the overweight person whose obesity is not so noticeable in water. The condition itself assist floatation and hence the ability to swim. Through exercise, heart and blood vessels can be strengthened, and in swimming, muscles can be worked and joints move beyond their normal range Similar movements attempted on land would be stressful. \n \n"
+        " * Swimming is enjoyable way of keeping fit. It improves stamina and stimulates the circulatory and respiratory systems, thereby promoting is feeling of general well- being. \n\n"
+
+    </string>
+
+    <string name="OCompetition">
+        "Most people swim for reasons started. Some improve their skill by means of self- imposed challenges, or by preparing for various tests. For those endowed with special abilities and aptitudes there are many opportunities for participation in swimming as competitive sports. For such as people, coaching, training, and swimming events are provided by the many clubs to be found throughout the country. "
+    </string>
+
+    <string name="cramps">
+        <b>1. CRAMPS</b> - Is a spasmodic contraction of the muscles usually caused by fatigue cold, or over exertion. This condition occurs most commonly in the foot, calf of the leg, or the hands. Although often painful, cramps are of little danger to swimmer unless they cause them to panic.\n
+        a). stomach\n
+        b). back\n
+        c). leg
+     </string>
+
+    <string name="exhaustion">
+        <b>2. Exhaustion</b> - Is a simply loss of energy and the resultant inability to make necessary movements to keep afloat and make progress through the water. This is a condition that may be brought about by entering water when a person is overtired from some physical activity.\n
+        a). over fatigue\n
+        b). After a tiresome sports \n
+        c). After a long distance swimming
+     </string>
+
+    <string name="panic">
+        <b>3. PANIC</b> - is a sudden unreasoning and overwhelming fear that destroys a person e capacity for self-help. It is motivated by the fear of drowning and may be precipitated by such conditions as exhaustion, cramps, currents, and injuries.
+     </string>
+
+
+    <string name="m1">
+        <b>1. Survey the scene.</b> In every rescue, safety is the primary consideration.
+    </string>
+
+    <string name="m2">
+        <b>2. Introduce yourself to the public.</b> You may introduce yourself this way: \"I am (name of first aider), a trained first aider and rescuer, may I help?\"
+    </string>
+
+    <string name="m3">
+        <b>3. Tap the shoulder of the victim three times to assess for responsiveness.</b> You may say <i>\"Hey sir, hey sir, are you okay? Hey sir, hey sir, are you okay? Hey sir, hey sir, are you okay?\"</i> if the victim responds in any way, such as groaning or talking, check for injuries and place in recovery position if there are none.
+    </string>
+
+    <string name="m4">
+        <b>4. Ask for help and activate medical assistance or EMS (Emergency Medical Services).</b> If the victim is unresponsive, the rescuer shall request a specific person to call for an ambulance or a vehicle for transportation, while the rescuer is doing the preliminary survey.
+    </string>
+
+    <string name="m5">
+        <b>5. Checks for the vital functioning.</b> If the victim is unresponsive, check for the pulse and breathing for about 5 seconds. Apply Look-Listen-Feel to assess breathing and check the radial or carotid pulse of the victim to assess circulation.
+    </string>
+
+    <string name="m6">
+        <b>6. If breathing is negative but the pulse of the victim is positive, perform Artificial, Respiration (AR) by following this procedure:</b>
+        \n• Remove any foreign objects inside the mouth (if present) such as dentures of retainers. If there are fluids in the mouth, turn the patient sideways to drain the fluid with gravity.
+        \n• Open airway using the Head Tilt- Chin Lift method or the jaw-Thrust Method (if there is suspected spinal injury).
+    </string>
+
+    <string name="m6a">
+        The <b>Head Tilt-Chin Tilt Maneuver</b> will cause the tongue to move up from the airway.\n
+        The <b>Jaw Thrust Maneuver</b> is done in cases of suspected spinal injury to avoid injury to the brain stem and spinal cord.
+    </string>
+
+    <string name="m7">
+       <b>7. If breathing and pulse are negative, apply Cardio Pulmonary Resuscitation (CPR):</b>
+        \n•<b> Shock first.</b> If the rescuer is trained in using a defibrillator and the machine is available, deliver one shock then proceed with CPR.
+        \n• Put the victim on his or her back onto a flat, hard surface or a cardiac board (if available).
+        \n•<b> Spelt CAB (C-Circulation: A-Airway: B-Breathing).</b>
+        \n• Apply 30 compressions by following this procedure:
+        \n• Kneel next to the person\'s neck and shoulders.
+    </string>
+
+    <string name="about_title">ABOUT</string>
+    <string name="about_description">This application is created as a learning tool that users can use to understand the basic concept of swimming. Through this app, users can access the learning materials hassle-free and browse wherever and whenever they want. The application will help the students in their Physical Education (PE) subject that is focused on swimming and provide them with easy access to materials for swimming. \n Mr. Hilarion V. Olimpo, the dean of Urdaneta City University Physical Education Department, offered the references that we used in developing this system, which are primarily regarding swimming. \n Credits to all the sources that we used in completing this application.</string>
+    <string name="about_developers"><b>\nDevelopers:</b>
+        Anna Marie D. Soriano\n
+        Erica Vonne F. Novio\n
+        Dimple V. Gabuyo\n
+        Rizza Grace E. Valdez\n
+        Richmond C. Pascual
+    </string>
+    <string name="about_button">OKAY</string>
+
+    <string name="exit_title">EXIT</string>
+    <string name="exit_message">Are you sure you want to exit?</string>
+    <string name="exit_pos_button">YES</string>
+    <string name="exit_neg_button">CANCEL</string>
+
+
+    <string name="tool_bar">
+        <b>Categories</b>
+    </string>
+
+
+</resources>

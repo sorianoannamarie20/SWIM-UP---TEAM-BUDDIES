@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/containerEquipments"
+    android:background="@color/blue1"
+    tools:context=".EquipmentsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EQUIPMENTS"
+        android:background="@color/blue2"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foregroundGravity="center"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="10dp">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue1"
+            android:orientation="vertical">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:columnCount="2"
+                android:paddingLeft="25dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="15dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/swim_cap"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/swimming_cap" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="5dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="15dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/goggles"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/swimming_goggles" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="15dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/fins"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/swimming_fins" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="5dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="15dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/drag_suit"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/swimming_drag_suit" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="15dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/hand_paddles"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/swimming_hand_paddles" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="5dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="15dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/kick_board"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/swimming_kick_board" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="15dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/pull_buoy"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/swimming_pull_buoy" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="5dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="15dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/ankle_bands"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/swimming_ankle_bands" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="15dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/snorkel"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/swimming_snorkel" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="5dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="15dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/tempo_trainer"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/swimming_tempo_trainer" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="15dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="15dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/zoomer"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/swimming_zoomer" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="5dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="15dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/swim_suit"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/swimming_bathing_suit" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+
+            </GridLayout>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/comebackHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"/>
+
+
+
+</RelativeLayout>

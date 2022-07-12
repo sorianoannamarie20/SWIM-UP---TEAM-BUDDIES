@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "117531173324",
+    "project_id": "quizleaderboardswimup",
+    "storage_bucket": "quizleaderboardswimup.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117531173324:android:befa7cd27703e14fa6bd69",
+        "android_client_info": {
+          "package_name": "com.example.quizleaderboardswimup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117531173324-io1ekckvpdob3brkb4dcphub2vlaiool.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYi-aNRkvfuionVbwH1lt9TmQYJ2SR-W8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117531173324-io1ekckvpdob3brkb4dcphub2vlaiool.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

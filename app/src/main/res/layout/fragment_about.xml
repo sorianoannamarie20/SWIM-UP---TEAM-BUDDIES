@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="15dp"
+    android:background="@drawable/ic_home_bg"
+    android:id="@+id/aboutDialogContainer"
+    tools:context=".ui.about.AboutFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shapewhite"
+        android:backgroundTint="@color/blue1"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dialog_header_background"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gif"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/logo_gif"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textTitle" />
+
+        <TextView
+            android:id="@+id/textMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_marginTop="10dp"
+            android:justificationMode="inter_word"
+            android:text="@string/about_description"
+            android:paddingLeft="13dp"
+            android:paddingRight="13dp"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@id/gif"
+            app:layout_constraintVertical_bias="0.533" />
+
+        <TextView
+            android:id="@+id/textDev"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:justificationMode="inter_word"
+            android:paddingLeft="13dp"
+            android:paddingRight="13dp"
+            android:text="@string/about_developers"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@id/textMessage"
+            app:layout_constraintVertical_bias="0.533" />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

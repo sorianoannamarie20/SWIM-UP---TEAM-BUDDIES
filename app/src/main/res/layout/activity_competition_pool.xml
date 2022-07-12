@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue1"
+    tools:context=".CompetitionPoolActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:fontFamily="@font/glacialindifferencebold"
+        android:gravity="center"
+        android:text="Facilities"
+        android:textColor="@color/blue2"
+        android:textSize="22sp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="90dp"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/competition_pool"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:layout_marginTop="310dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/titleSize"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@color/blue2"
+                android:fontFamily="@font/glacialindifferencebold"
+                android:padding="7dp"
+                android:paddingBottom="10dp"
+                android:text="Pool Size"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:id="@+id/contentSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/glacialindifferenceregular"
+                android:justificationMode="inter_word"
+                android:padding="15dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="The standard competition pool size are either 50m or 50m in length."/>
+
+            <Button
+                android:id="@+id/titleDepth"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue2"
+                android:fontFamily="@font/glacialindifferencebold"
+                android:padding="7dp"
+                android:paddingBottom="10dp"
+                android:text="DEPTH"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:id="@+id/contentDepth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/glacialindifferenceregular"
+                android:justificationMode="inter_word"
+                android:padding="15dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="Starting Depth, for all championships and non championships competition, the water depth shall be not less than 4 feet [1.22 m] at the starting end of the racing course. Olympic size swimming pools approximately 50m or 164 feet in length, 25 or 82 feet in width, and 2 m or 6 feet in depth. This measurements are create a surface area of 13,454.72 square feet and a volume of 88,263 cubic feet. The pool has 660,253.09 gallons of water, which equals about 5,511,556 lbs. "/>
+
+            <Button
+                android:id="@+id/titleWalls"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue2"
+                android:fontFamily="@font/glacialindifferencebold"
+                android:padding="7dp"
+                android:paddingBottom="10dp"
+                android:text="Walls"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:id="@+id/contentWalls"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/glacialindifferenceregular"
+                android:justificationMode="inter_word"
+                android:padding="15dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="The end walls of the racing course shall be perpendicular to the racing course and parallel to each other. They shall be vertical to a water depth of not less than 4 feet [1.22 m] at the starting end and should not be less than 3.5 feet [1.07 m] at the opposite end.\n\nIf a continuous recessed hand grip is provided at or near the water surface in a wall or bulkhead, the horizontal dimension of the recess perpendicular to the wall or bulkhead should be not less than 6 inches [.15 m] and designed in a manner to avoid contact between the swimmers’ fingers and the back surface of the recess."/>
+
+            <Button
+                android:id="@+id/titleWaterTemperature"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue2"
+                android:fontFamily="@font/glacialindifferencebold"
+                android:padding="7dp"
+                android:paddingBottom="10dp"
+                android:text="Water Temperature"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:id="@+id/contentWaterTemperature"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/glacialindifferenceregular"
+                android:justificationMode="inter_word"
+                android:padding="15dp"
+                android:textSize="18sp"
+                android:textColor="@color/blue2"
+                android:text="The temperature is between 250 degrees Celsius. During competition the water is keep at constant level, with the very little movement. Inflow and outflow is allowed as long as no appreciable current or turbulence is created. "/>
+
+            <Button
+                android:id="@+id/titleLanes"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue2"
+                android:fontFamily="@font/glacialindifferencebold"
+                android:padding="7dp"
+                android:paddingBottom="10dp"
+                android:text="Lanes"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:id="@+id/contentLanes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/glacialindifferenceregular"
+                android:justificationMode="inter_word"
+                android:padding="15dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="According to FINA rules world championship require 8 lanes and 10 lanes for Olympic Games. The lanes are minimum of 2.5m wide, with two spaces of at least 2.5m wide outside of the first and last lane."/>
+
+            <Button
+                android:id="@+id/titleLaneRopes"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue2"
+                android:fontFamily="@font/glacialindifferencebold"
+                android:padding="7dp"
+                android:paddingBottom="10dp"
+                android:text="Lane Ropes"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:id="@+id/contentLaneRopes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/glacialindifferenceregular"
+                android:justificationMode="inter_word"
+                android:padding="15dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="In 8 lanes pool, lane ropes extended the full length of the course and are secured at each end wall to anchor brackets, recessed into the end walls. The anchor are positioned so that the floats at each end wall of the pool are on the surface of the water. "/>
+
+            <Button
+                android:id="@+id/titleLaneMarkings"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue2"
+                android:fontFamily="@font/glacialindifferencebold"
+                android:padding="7dp"
+                android:paddingBottom="10dp"
+                android:text="Lane Markings"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:id="@+id/contentLaneMarkings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/glacialindifferenceregular"
+                android:justificationMode="inter_word"
+                android:padding="15dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="The lane markings on the floor of the pool are a dark colour and marked in the centre of each lane. The width of the marking is 0.2m ¬0.3m for all pools. The length for 50m pools is 46m and 21m for 25m pools.\n\nEach lane line ends2m from the end wall of the pool with a distinctive cross line 1m long and of the same width as the lane line. Target lines are marked on the end walls or on the touch panels in the centre of each lane and are the same width as the lane lines."/>
+
+            <Button
+                android:id="@+id/titleStartingPlatforms"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue2"
+                android:fontFamily="@font/glacialindifferencebold"
+                android:padding="7dp"
+                android:paddingBottom="10dp"
+                android:text="Starting Platforms"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:id="@+id/contentStartingPlatforms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/glacialindifferenceregular"
+                android:justificationMode="inter_word"
+                android:padding="15dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="Are from 0.5m ¬0.75m high above the water surface. The surface area is at least 1.5m square and covered with a non -slip material. The maximum slope is 10 degrees. The platforms are firm and are without a springing effect. "/>
+
+            <Button
+                android:id="@+id/titleRules"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue2"
+                android:fontFamily="@font/glacialindifferencebold"
+                android:padding="7dp"
+                android:paddingBottom="10dp"
+                android:text="Rules and Regulation"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:id="@+id/contentRules"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/glacialindifferenceregular"
+                android:justificationMode="inter_word"
+                android:padding="15dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="The FINA regulate the design, layout and overall measurements of Olympic size swimming pools. FINA function to create consistency between different pool to ensure they the required measurement and is recognize by the International Olympic Committee. FINA also overseas swimming, diving, synchronize swimming, water polo and an open water swimming. The committee has a written set of rules that includes every required measurement of the pool. "/>
+
+            <Button
+                android:id="@+id/titleVolume"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue2"
+                android:fontFamily="@font/glacialindifferencebold"
+                android:padding="7dp"
+                android:paddingBottom="10dp"
+                android:text="Volume"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:id="@+id/contentVolume"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/glacialindifferenceregular"
+                android:justificationMode="inter_word"
+                android:padding="15dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="Olympic size swimming are approximately 50m or 164 feet in length, 25m or 82 feet in width, and 2m or 6 feet in depth. These measurement create a surface area of 13, 454.72 square feet and a volume of 88,263 cubic feet. The pool has 660,253.09 gallons of water which equals about 5,511,566 lbs. "/>
+
+            <Button
+                android:id="@+id/titleFeatures"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue2"
+                android:fontFamily="@font/glacialindifferencebold"
+                android:padding="7dp"
+                android:paddingBottom="10dp"
+                android:text="Features"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:id="@+id/contentFeatures"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/glacialindifferenceregular"
+                android:justificationMode="inter_word"
+                android:padding="15dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="During a swimming competition, each athlete is assigned to marked lane. An Olympic size swimming pool feature eight lane with two outside lane used as buffer zone each lane measure 2.5m wide and is marked by ropes and buoy on top of the water and a lane printed on the bottom. The lane line end 2m before the end the wall of the pool as an indicator to the swimmer. "/>
+
+            <Button
+                android:id="@+id/titleExtras"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue2"
+                android:fontFamily="@font/glacialindifferencebold"
+                android:padding="7dp"
+                android:paddingBottom="10dp"
+                android:text="Extras"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:id="@+id/contentExtras"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/glacialindifferenceregular"
+                android:justificationMode="inter_word"
+                android:padding="15dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="Other measurement, indicator ropes And line are track events. The false start rope, for example, is used to indicate a false start to the swimmers. The rope is placed 5m from the start line and suspend across the pool about 1.2m above the surface. The backstrokes turn indicator is flagged rope used by the swimmers to indicate the end of the lane. The rope is placed 1.8m above the surface and 5m from the start "/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

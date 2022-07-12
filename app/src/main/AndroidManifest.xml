@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.quizleaderboardswimup">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuizLeaderboardSwimUp"
+        tools:targetApi="31">
+        <activity
+            android:name=".FirstAidActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WaterSurvivalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SkillsBenefit"
+            android:exported="false" />
+        <activity
+            android:name=".MentalHealthBenefits"
+            android:exported="false" />
+        <activity
+            android:name=".BodyBenefits"
+            android:exported="false" />
+        <activity
+            android:name=".BenefitOfSwimingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RulesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DivingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BasicSkillsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CompetitionPoolActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EquipmentContainerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EquipmentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OverviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BenefitOfSwiming"
+            android:exported="false" />
+        <activity
+            android:name=".Rules"
+            android:exported="false" />
+        <activity
+            android:name=".Diving"
+            android:exported="false" />
+        <activity
+            android:name=".BasicSkills"
+            android:exported="false" />
+        <activity
+            android:name=".CompetitionPool"
+            android:exported="false" />
+        <activity
+            android:name=".Equipments"
+            android:exported="false" />
+        <activity
+            android:name=".History"
+            android:exported="false" />
+        <activity
+            android:name=".Overview"
+            android:exported="false" />
+        <activity
+            android:name=".BookmarkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnswersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ScoreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StartQuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.QuizLeaderboardSwimUp.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

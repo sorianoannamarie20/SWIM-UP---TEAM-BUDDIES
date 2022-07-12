@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/containerDiving"
+    android:background="@color/blue1"
+    tools:context=".DivingActivity">
+
+    <ImageView
+        android:id="@+id/backBtnD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:src="@drawable/ic_baseline_back_arrow"
+        app:tint="@color/black" />
+
+    <ImageView
+        android:id="@+id/equipment_image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/diving" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/ic_pop_up1">
+
+        <TextView
+            android:id="@+id/equipment_name"
+            android:layout_width="303dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="54dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="33dp"
+            android:layout_marginEnd="54dp"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+            android:text="DIVING"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/equipment_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:justificationMode="inter_word"
+            android:text="Combines the skills of tumbling and swing in the form of aerial acrobatics. It was in the year 1905 that diving was first held in England. To date, diving developed unto an exciting for millions of people. Before learning diving, a student should learn in jump from various heights. After adequate jumping exercise or experience, the beginner or the diver should push off from the side of the pool in a prone glide and direct the body below surface and the arms are turned upward. We kneeling, Stride, Compact and Standing dive are Kinds of dive in swimming competition."
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

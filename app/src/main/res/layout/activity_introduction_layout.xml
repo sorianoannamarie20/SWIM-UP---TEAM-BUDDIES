@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+        android:id="@+id/imageInt"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vec1" />
+
+    <TextView
+        android:id="@+id/titleInt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/poppins_medium"
+        android:hint="SWIMMING"
+        android:textColor="@color/blue2"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageInt"
+        app:layout_constraintStart_toStartOf="@+id/imageInt"
+        app:layout_constraintTop_toBottomOf="@+id/imageInt"
+        android:gravity="center_horizontal" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleInt">
+
+    <TextView
+        android:id="@+id/descInt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:fontFamily="@font/poppins_medium"
+        android:hint="	Most people swim for reasons started. Some improve their skill by means of self-imposed challenges, or by preparing for various tests. For those endowed with special abilities and aptitude there are many opportunities for participation in swimming as competitive sports. For such as people, coaching, training and swimming events are provided by the many clubs to be found throughout the country. "
+        android:justificationMode="inter_word"
+        android:padding="8dp"
+        android:lineSpacingExtra="2sp"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        />
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

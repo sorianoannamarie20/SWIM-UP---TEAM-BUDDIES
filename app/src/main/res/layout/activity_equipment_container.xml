@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue1"
+    tools:context=".EquipmentContainerActivity">
+
+    <ImageView
+        android:id="@+id/backBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:src="@drawable/ic_baseline_back_arrow"
+        app:tint="@color/black" />
+
+    <ImageView
+        android:id="@+id/equipment_image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/swimming_drag_suit" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/ic_pop_up1">
+
+        <TextView
+            android:id="@+id/equipment_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Swimming Goggles"
+            android:textColor="@color/blue2"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/equipment_description"
+            android:layout_width="wrap_content"
+            android:layout_height="282dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:justificationMode="inter_word"
+            android:text="Goggles keeps water and chlorine out of swimmers eyes. Goggles may tinted to counteract glare at outdoor pools. Prescription goggles may be used by swimmers who were corrective lenses. "
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

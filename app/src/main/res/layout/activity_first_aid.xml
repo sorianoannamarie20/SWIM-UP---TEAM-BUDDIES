@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/containerFirstAid"
+    android:background="@color/blue1"
+    android:orientation="horizontal"
+    tools:context=".FirstAidActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FIRST AID"
+        android:background="@color/blue2"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="55dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:layout_margin="10dp"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center_horizontal"
+                android:text="Artificial Respiration and Cardiopulmonary Resuscitation"
+                android:background="@color/light_gray"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/arHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="1. Artificial Respiration (AR)"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:layout_below="@+id/header"/>
+
+            <ImageView
+                android:id="@+id/arImg"
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"
+                android:layout_below="@id/arHeader"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ar" />
+
+            <TextView
+                android:id="@+id/arTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="\t\t\It is a procedure to manually pump or blow air into the lungs of a person when his or her normal or natural breathing is inadequate or has ceased. "
+                android:textSize="18sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"
+                android:layout_below="@+id/arImg"/>
+
+            <TextView
+                android:id="@+id/cprHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="2. Cardiopulmonary Resuscitation (CPR)"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:layout_below="@+id/arTv"/>
+
+            <ImageView
+                android:id="@+id/cprImg"
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"
+                android:layout_below="@id/cprHeader"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/cpr" />
+
+            <TextView
+                android:id="@+id/cprTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="\t\t\It is an emergency procedure done to continue the circulation of oxygen and blood inside a person's body when cardiac and respiratory functioning has stopped.  "
+                android:textSize="18sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"
+                android:layout_below="@+id/cprImg"/>
+
+            <TextView
+                android:id="@+id/dHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="3. Defibrillator"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:layout_below="@+id/cprTv"/>
+
+            <ImageView
+                android:id="@+id/dImg"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_below="@id/dHeader"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/defibrillator" />
+
+            <TextView
+                android:id="@+id/dTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="\t\t\It is a machine used parallel with CPR that delivers a measured amount of electric shock to restore an appropriate rhythm for the heart's natural pacemaker."
+                android:textSize="18sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"
+                android:layout_below="@+id/dImg"/>
+
+            <TextView
+                android:id="@+id/vHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="4.  Ventilation "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:layout_below="@+id/dTv"/>
+
+            <ImageView
+                android:id="@+id/vImg"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:src="@drawable/ventilation"
+                android:layout_below="@id/vHeader"/>
+
+            <TextView
+                android:id="@+id/vTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="\t\t\It is an action by the first alder in the administration of CPR that allows air to enter the lungs of the patient, either by the mount to mouth delivery or Dy an artificial airway (endotracheal tube)."
+                android:textSize="18sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"
+                android:layout_below="@+id/vImg"/>
+
+            <TextView
+                android:id="@+id/cHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="5. Compression"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:layout_below="@+id/vTv"/>
+
+            <ImageView
+                android:id="@+id/cImg"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:src="@drawable/compression"
+                android:layout_below="@id/cHeader"/>
+
+            <TextView
+                android:id="@+id/cTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="\t\t\It is an action by the first aider in the administration of CPR wherein the hands and arms are used to manually pump the heart of the victim in the definite rhythm to continue the circulation of blood from the lungs to the heart to the brain, when cardiac functioning has stopped. "
+                android:textSize="18sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"
+                android:layout_below="@+id/cImg"/>
+
+
+            <TextView
+                android:id="@+id/methodHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Method of Conducting AR and CPR "
+                android:textSize="20sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_below="@id/cTv"/>
+
+            <TextView
+                android:id="@+id/methodTv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@string/m1"
+                android:textSize="18sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"
+                android:layout_below="@+id/methodHeader"/>
+
+            <TextView
+                android:id="@+id/methodTv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@string/m2"
+                android:textSize="18sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"
+                android:layout_below="@+id/methodTv1"/>
+
+            <TextView
+                android:id="@+id/methodTv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@string/m3"
+                android:textSize="18sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"
+                android:layout_below="@+id/methodTv2"/>
+
+            <TextView
+                android:id="@+id/methodTv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@string/m4"
+                android:textSize="18sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"
+                android:layout_below="@+id/methodTv3"/>
+
+            <ImageView
+                android:id="@+id/tv4Img"
+                android:layout_width="match_parent"
+                android:layout_height="650dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/canva_rta"
+                android:layout_below="@id/methodTv4"/>
+
+            <TextView
+                android:id="@+id/methodTv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@string/m5"
+                android:textSize="18sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"
+                android:layout_below="@+id/tv4Img"/>
+
+            <ImageView
+                android:id="@+id/tv5Img"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:src="@drawable/five"
+                android:layout_below="@id/methodTv5"/>
+
+            <TextView
+                android:id="@+id/methodTv5a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="Use the index and middle finger to assess the radial pulse (left) or the carotid pulse (right). (Note: the carotid pulse is the last out of the 10 pulse sites to be felt after cardiac arrest)"
+                android:textSize="18sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"
+                android:layout_below="@+id/tv5Img"/>
+
+            <TextView
+                android:id="@+id/methodTv6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@string/m6"
+                android:textSize="18sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"
+                android:layout_below="@+id/methodTv5a"/>
+
+            <ImageView
+                android:id="@+id/tv6Img"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:src="@drawable/six"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@id/methodTv6"/>
+
+            <TextView
+                android:id="@+id/methodTv6a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@string/m6a"
+                android:textSize="18sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"
+                android:layout_below="@+id/tv6Img"/>
+
+            <TextView
+                android:id="@+id/methodTv6b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="• Pinch the nostrils with the thumb and index finger then place your mouth over the victim's mouth. Blow air into the victim's airway, making sure that no air escapes as you blow into the mouth, then watch for the rising of the chest. If the chest does not rise, then check the airway for any obstruction. If the chest rises, continue with AR until the victim breathes on his or her own, or until medical assistance arrives. "
+                android:textSize="18sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"
+                android:layout_below="@+id/methodTv6a"/>
+
+
+            <TextView
+                android:id="@+id/methodTv7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@string/m7"
+                android:textSize="18sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"
+                android:layout_below="@+id/methodTv6b"/>
+
+            <ImageView
+                android:id="@+id/tv7Img"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:src="@drawable/sev_a"
+                android:layout_below="@id/methodTv7"/>
+
+            <TextView
+                android:id="@+id/methodTv7a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="• Place the heel of the dominant hand on the center of the victim's chest, between the nipples (if male) or between the breasts (if female).\n• Place the non-dominant hand over the dominant hand. Interlace the fingers but make sure the force is delivered onto the heel of the hand and not on the fingers.\n• Keep elbows straight and position shoulders directly above the hands. \n• Use the force from the shoulders and arms to push straight down on the chest for at least 2 inches in depth. Push hard at a rate of 100 compressions per minute. "
+                android:textSize="18sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"
+                android:layout_below="@+id/tv7Img"/>
+
+            <ImageView
+                android:id="@+id/tv7Img2"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:src="@drawable/sev_b"
+                android:layout_below="@id/methodTv7a"/>
+
+            <TextView
+                android:id="@+id/methodTv7b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="• After 30 compressions, deliver 2 ventilations following the procedure for Artificial Respiration.\n• Thirty (30) compressions with 2 ventilations is 1 CYCLE. Perform 5 Cycles then reassess vital functioning.\n• If vital functioning returns, place victim in recovery position (if there is no suspected spinal injury) and wait for medical assistance.\n• If vital functioning is absent, perform another 5 cycles until medical assistance arrives.\n• Do not stop until the 5 cycles are completed. If another rescuer is present, he or she may substitute and continue the cycles if the first rescuer is exhausted If medical assistance arrives before 5 cycles are done, inform the medic on the number of cycles you have performed so that he or she will allow you to finish before they will take over. "
+                android:textSize="18sp"
+                android:lineSpacingExtra="3sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"
+                android:layout_below="@+id/tv7Img2"/>
+
+
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/comeHomeFirst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"/>
+
+</RelativeLayout>
